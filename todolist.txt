@@ -2,3 +2,4 @@
 # Models - how will the models be strcutured, in terms of teams, years + data
 # What addititional info can be added from my other repo
 # Add django rest framework for api, to post and update
+# Move minutes model to api models or create main app
