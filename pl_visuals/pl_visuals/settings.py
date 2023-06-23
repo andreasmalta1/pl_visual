@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     "minutes.apps.MinutesConfig",
     "api.apps.ApiConfig",
     "rest_framework",
+    "rest_framework.authtoken",
 ]
 
 MIDDLEWARE = [
