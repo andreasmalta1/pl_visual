@@ -12,7 +12,7 @@ auth_response = requests.post(
 if auth_response.status_code == 200:
     token = auth_response.json()["token"]
     print(token)
-    headers = {"Authorization": f"Token {token}"}
+    headers = {"Authorization": f"Bearer {token}"}
     print(headers)
 
     endpoint = "http://localhost:8000/api/products/"
