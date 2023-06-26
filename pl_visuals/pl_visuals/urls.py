@@ -7,4 +7,5 @@ urlpatterns = [
     # path("", include("minutes.urls")),
     path("api/", include("api.urls")),
     path("api/products/", include("minutes.urls")),
+    path("api/v2/", include("pl_visuals.routers")),
 ]
